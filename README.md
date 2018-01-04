@@ -16,19 +16,30 @@ DataStructure
   
 * Operating Example
 
-  Input file contents with .txt               Example of output
+  Input file contents with .txt
   
-  9                                           Critical path:
-  11                                          016
-  016                                         141
-  024                                         468
-  035                                         476
-  141                                         682
-  241                                         784
+  9
+  11
+  016
+  024
+  035
+  141
+  241
   352
-  468                                         When the Last Event (V8) occurs Point = 17
+  468
   476
   574
   682
   784
 
+  Example of output
+  
+  Critical path:
+  016
+  141
+  468
+  476
+  682
+  784
+  
+  When the Last Event (V8) occurs Point = 17
